@@ -1,0 +1,34 @@
+{
+  "name": "anydoor2",
+  "version": "0.1.1",
+  "description": "node js",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor2": "bin/anydoor2"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yueyataihen/anydoor2.git"
+  },
+  "author": "xieliping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yueyataihen/anydoor2/issues"
+  },
+  "homepage": "https://github.com/yueyataihen/anydoor2#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "curl": "^0.1.4",
+    "handlebars": "^4.1.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.1",
+    "pre-commit": "^1.2.2"
+  }
+}
